@@ -128,7 +128,7 @@ const Friends = () => {
           style={customStyles}
         >
           <ShareModal
-            URL={` https://www.anshyati.harshchandravanshi.live/dashboard/add-friend/${auth.currentUser.uid}`}
+            URL={` https://http://localhost:3000/dashboard/add-friend/${auth.currentUser.uid}`}
             TYPE="FRIEND"
           />
         </Modal>
