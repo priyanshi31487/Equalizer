@@ -128,7 +128,7 @@ const Friends = () => {
           style={customStyles}
         >
           <ShareModal
-            URL={` http://192.168.137.242:3000/dashboard/add-friend/${auth.currentUser.uid}`}
+            URL={` http://10.12.0.17:3000/dashboard/add-friend/${auth.currentUser.uid}`}
             TYPE="FRIEND"
           />
         </Modal>

@@ -3,7 +3,7 @@
     <img src="https://github.com/harsh0620/anshyati/blob/main/src/assets/images/anshyati-logo-white.png" alt="Logo"  height="80">
   </a> -->
 
-  <h1 align="center">Anshyati</h1>
+  <h1 align="center">Equalizer</h1>
 
   <p align="center">
     Build with the React and Firebase.
@@ -23,7 +23,7 @@ git a
 
 ## Description
 
-The app named ANSHYATI to split the bills and pay the share instantly after an eat-out or any other event. In this app users can create groups,add expense,can view who owes who and settle up. It also provides graphical representation of category wise expenses,category wise groups and monthly expenses of users.One can create group,to join the group created by other one can simply follow up the link shared by person who created the group.Expenses can be splitted only to selected members which is part of the group.One can also add friend using QR code.
+The app named EQUALIZER to split the bills and pay the share instantly after an eat-out or any other event. In this app users can create groups,add expense,can view who owes who and settle up. It also provides graphical representation of category wise expenses,category wise groups and monthly expenses of users.One can create group,to join the group created by other one can simply follow up the link shared by person who created the group.Expenses can be splitted only to selected members which is part of the group.One can also add friend using QR code.
 Apart from functionality it also provides great UI which gives users a great experience.
 
 ## Key Features

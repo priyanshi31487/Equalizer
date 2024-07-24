@@ -222,7 +222,7 @@ const GetExpenseInfo = () => {
               className="text-blue-400 font-semibold cursore-pointer"
               onClick={() => navigate("/")}
             >
-              Anshyati
+              Equalizer
             </span>
           </div>
         </div>

@@ -25,19 +25,19 @@ const ShareModal = ({ URL, TYPE }) => {
       <div className="flex flex-row items-center justify-center text-lg font-medium">
         {TYPE === "GROUP"
           ? "Invite your friends to join the group"
-          : "Invite your friends to join Anshyati"}
+          : "Invite your friends to join Equalizer"}
         
       </div>
       <div className="flex flex-col items-center justify-center text-lg font-medium mt-8">
         <div className="flex flex-row items-center justify-center">
           <EmailShareButton
             subject={
-              TYPE === "GROUP" ? "Join Anshyati Group" : "Join me on Anshyati"
+              TYPE === "GROUP" ? "Join  Group" : "Join me on Equalizer"
             }
             body={
               TYPE === "GROUP"
-                ? "Follow this link to join my Anshyati group: "
-                : "Follow this link to join me on Anshyati"
+                ? "Follow this link to join my Equalizer group: "
+                : "Follow this link to join me on Equalizer"
             }
             url={URL}
           >
@@ -49,8 +49,8 @@ const ShareModal = ({ URL, TYPE }) => {
             hashtag={["#anshyati", "#groups", "#split_the_bill"]}
             body={
               TYPE === "GROUP"
-                ? "Follow this link to join my Anshyati group: "
-                : "Follow this link to join me on Anshyati"
+                ? "Follow this link to join my Equalizer group: "
+                : "Follow this link to join me on Equalizer"
             }
             url={URL}
           >
@@ -59,9 +59,9 @@ const ShareModal = ({ URL, TYPE }) => {
             </div>
           </FacebookShareButton>
           <LinkedinShareButton
-            title="Join Anshyati Group"
+            title="Join Equalizer Group"
             summary={
-              TYPE === "GROUP" ? "Join Anshyati Group" : "Join me on Anshyati"
+              TYPE === "GROUP" ? "Join Equalizer Group" : "Join me on Equalizer"
             }
             source="https://anshyati.vercel.com"
             url={URL}
@@ -73,8 +73,8 @@ const ShareModal = ({ URL, TYPE }) => {
           <WhatsappShareButton
             title={
               TYPE === "GROUP"
-                ? "Follow this link to join my Anshyati group: "
-                : "Follow this link to join me on Anshyati"
+                ? "Follow this link to join my Equalizer group: "
+                : "Follow this link to join me on Equalizer"
             }
             separator=":"
             url={URL}
@@ -87,7 +87,7 @@ const ShareModal = ({ URL, TYPE }) => {
         <div className="flex flex-row items-center justify-center">
           <TelegramShareButton
             title={
-              TYPE === "GROUP" ? "Join Anshyati Group" : "Join me on Anshyati"
+              TYPE === "GROUP" ? "Join Equalizer Group" : "Join me on Equalizer"
             }
             url={URL}
           >
@@ -98,12 +98,12 @@ const ShareModal = ({ URL, TYPE }) => {
           <TumblrShareButton
             caption={
               TYPE === "GROUP"
-                ? "Follow this link to join my Anshyati group: "
-                : "Follow this link to join me on Anshyati"
+                ? "Follow this link to join my Equalizer group: "
+                : "Follow this link to join me on Equalizer"
             }
             tags={["anshyati", "groups", "split_the_bill"]}
             title={
-              TYPE === "GROUP" ? "Join Anshyati Group" : "Join me on Anshyati"
+              TYPE === "GROUP" ? "Join Equalizer Group" : "Join me on Equalizer"
             }
             url={URL}
           >
@@ -114,7 +114,7 @@ const ShareModal = ({ URL, TYPE }) => {
           <TwitterShareButton
             hashtags={["anshyati", "groups", "split_the_bill"]}
             title={
-              TYPE === "GROUP" ? "Join Anshyati Group" : "Join me on Anshyati"
+              TYPE === "GROUP" ? "Join Equalizer Group" : "Join me on Equalizer"
             }
             url={URL}
           >
@@ -124,7 +124,7 @@ const ShareModal = ({ URL, TYPE }) => {
           </TwitterShareButton>
           <RedditShareButton
             title={
-              TYPE === "GROUP" ? "Join Anshyati Group" : "Join me on Anshyati"
+              TYPE === "GROUP" ? "Join Equalizer Group" : "Join me on Equalizer"
             }
             url={URL}
           >

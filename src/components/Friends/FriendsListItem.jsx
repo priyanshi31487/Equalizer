@@ -1,6 +1,7 @@
 import React from "react";
 import USER from "../../assets/images/user.png";
 const FriendsListItem = ({ friend, amount, comp }) => {
+  
   return (
     <div className="border bg-white  mb-2 rounded-lg px-4 py-2 flex items-center cursor-pointer shadow-md hover:drop-shadow-lg">
       <img

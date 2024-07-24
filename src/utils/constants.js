@@ -394,7 +394,7 @@ const sidebarItems = [
 const contactData = {
   DEVELOPER_EMAIL: "priyanshie803@gmail.com",
   FEEDBACK_FORM: "https://forms.gle/ajpKaYjKpWix6TNo9",
-  HOST: "https://www.anshyati.harshchandravanshi.live/",
+  HOST: "http://10.12.0.17:3000",
 };
 
 var groupsCategoryIcon = new Map([

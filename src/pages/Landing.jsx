@@ -46,7 +46,7 @@ const Landing = () => {
   const [feature, setFeature] = useState("organizeExpenses");
   const navigate = useNavigate();
   useEffect(() => {
-    document.title = "Anshyati";
+    document.title = "Equalizer";
   }, []);
   if (checkingStatus) {
     return <Spinner />;
@@ -277,10 +277,10 @@ const Landing = () => {
                 <FaFileCsv />
               </div>
               <div className="text-bluegg text-xl font-medium">
-                Export your anshyati
+                Export your equalizer
               </div>
               <div className="text-gray-600 text-lg ">
-                You prefer to print a anshyati or to dig into a deeper analysis?
+                You prefer to print a equalizer or to dig into a deeper analysis?
                 Export all expenses into CSV file.
               </div>
             </div>
@@ -311,7 +311,7 @@ const Landing = () => {
       </div>
       <div className="max-w-6xl mx-auto mt-8 py-24 px-4 flex flex-col items-center justify-center">
         <div className="md:text-5xl text-3xl text-center font-bold mb-2 ">
-          Start your Anshyati Journey
+          Start your Equalizer Journey
         </div>
         <div className="md:text-3xl text-xl text-center font-semibold mt-2 ">
           It's simple and totally free.
@@ -332,7 +332,7 @@ const Landing = () => {
           >
             <img src={logo192} className="mr-3 w-10 h-10" alt=" Logo" />
             <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-              Anshyati
+              Equalizer
             </span>
           </a>
           <ul className="flex flex-wrap items-center mb-6 text-sm text-white sm:mb-0 ">
@@ -376,10 +376,10 @@ const Landing = () => {
         <span className="block text-sm text-white sm:text-center ">
           © 2023{" "}
           <a
-            href="https://www.anshyati.harshchandravanshi.live/"
+             href="https://www.anshyati.harshchandravanshi.live/"
             className="hover:underline"
           >
-            Anshyati™
+            Equalizer™
           </a>
           . All Rights Reserved.
         </span>
