@@ -46,7 +46,7 @@ const ShareModal = ({ URL, TYPE }) => {
             </div>
           </EmailShareButton>
           <FacebookShareButton
-            hashtag={["#anshyati", "#groups", "#split_the_bill"]}
+            hashtag={["#equalizer", "#groups", "#split_the_bill"]}
             body={
               TYPE === "GROUP"
                 ? "Follow this link to join my Equalizer group: "
@@ -63,7 +63,7 @@ const ShareModal = ({ URL, TYPE }) => {
             summary={
               TYPE === "GROUP" ? "Join Equalizer Group" : "Join me on Equalizer"
             }
-            source="https://anshyati.vercel.com"
+            source="https://my-equalizer.vercel.app/"
             url={URL}
           >
             <div className="bg-white rounded-full p-2 cursor-pointer m-2 shadow-md hover:drop-shadow-lg  ">
@@ -101,7 +101,7 @@ const ShareModal = ({ URL, TYPE }) => {
                 ? "Follow this link to join my Equalizer group: "
                 : "Follow this link to join me on Equalizer"
             }
-            tags={["anshyati", "groups", "split_the_bill"]}
+            tags={["equalizer", "groups", "split_the_bill"]}
             title={
               TYPE === "GROUP" ? "Join Equalizer Group" : "Join me on Equalizer"
             }
@@ -112,7 +112,7 @@ const ShareModal = ({ URL, TYPE }) => {
             </div>
           </TumblrShareButton>
           <TwitterShareButton
-            hashtags={["anshyati", "groups", "split_the_bill"]}
+            hashtags={["equalizer", "groups", "split_the_bill"]}
             title={
               TYPE === "GROUP" ? "Join Equalizer Group" : "Join me on Equalizer"
             }

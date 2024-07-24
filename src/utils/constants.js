@@ -394,7 +394,7 @@ const sidebarItems = [
 const contactData = {
   DEVELOPER_EMAIL: "priyanshie803@gmail.com",
   FEEDBACK_FORM: "https://forms.gle/ajpKaYjKpWix6TNo9",
-  HOST: "http://10.12.0.17:3000",
+  HOST: "https://my-equalizer.vercel.app/",
 };
 
 var groupsCategoryIcon = new Map([

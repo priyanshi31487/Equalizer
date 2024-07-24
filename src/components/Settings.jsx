@@ -346,7 +346,7 @@ const Settings = () => {
               className="flex items-center ml-3 mt-3 text-lg text-gray-600 hover:text-gray-900 cursor-pointer"
             >
               <MdFeedback />
-              <div className="ml-2 text-lg font-semibold">Rate Anshyati</div>
+              <div className="ml-2 text-lg font-semibold">Rate Equalizer</div>
             </a>
             <a
               href={`mailto:${

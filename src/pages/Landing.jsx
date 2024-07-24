@@ -146,7 +146,7 @@ const Landing = () => {
                 Collaborative
               </div>
               <div className="md:block hidden md:text-lg text-xs font-medium text-white">
-                Anshyati helps you share your lifestyle and <br />
+                Equalizer helps you share your lifestyle and <br />
                 brings you closer to friends, family and flatmates.
               </div>
             </div>
@@ -327,7 +327,7 @@ const Landing = () => {
       <footer className="p-4 bg-bluegg rounded-lg shadow md:px-6 md:py-8 ">
         <div className="sm:flex sm:items-center sm:justify-between">
           <a
-            href="https://www.anshyati.harshchandravanshi.live/"
+            href="https://my-equalizer.vercel.app//"
             className="flex items-center mb-4 sm:mb-0"
           >
             <img src={logo192} className="mr-3 w-10 h-10" alt=" Logo" />
@@ -376,7 +376,7 @@ const Landing = () => {
         <span className="block text-sm text-white sm:text-center ">
           © 2023{" "}
           <a
-             href="https://www.anshyati.harshchandravanshi.live/"
+             href="https://my-equalizer.vercel.app/"
             className="hover:underline"
           >
             Equalizer™
@@ -386,7 +386,7 @@ const Landing = () => {
         <span className="block text-sm text-white sm:text-center mt-2">
           Developed with ❤ by{" "}
           <a
-            // href="http://www.harshchandravanshi.live/"
+             href="https://my-equalizer.vercel.app/"
             className="hover:underline text-yellow-300 font-bold text-lg"
           >
             TheDev

@@ -388,7 +388,7 @@ const SettingsGroup = () => {
           style={customStyles}
         >
           <ShareModal
-            URL={`http://10.12.0.17:3000/dashboard/groups/join/${params.groupId}`}
+            URL={`https://my-equalizer.vercel.app/dashboard/groups/join/${params.groupId}`}
             TYPE="GROUP"
           />
         </Modal>

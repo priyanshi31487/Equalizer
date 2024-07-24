@@ -1,5 +1,5 @@
 <div align="center">
-  <!-- <a href="https://www.anshyati.harshchandravanshi.live/">
+  <!-- <a href="https://my-equalizer.vercel.app/">
     <img src="https://github.com/harsh0620/anshyati/blob/main/src/assets/images/anshyati-logo-white.png" alt="Logo"  height="80">
   </a> -->
 

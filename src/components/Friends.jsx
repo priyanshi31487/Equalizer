@@ -128,7 +128,7 @@ const Friends = () => {
           style={customStyles}
         >
           <ShareModal
-            URL={` http://10.12.0.17:3000/dashboard/add-friend/${auth.currentUser.uid}`}
+            URL={` https://my-equalizer.vercel.app/dashboard/add-friend/${auth.currentUser.uid}`}
             TYPE="FRIEND"
           />
         </Modal>
