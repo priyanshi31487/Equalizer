@@ -22,7 +22,7 @@ const featuresData = [
   {
     title: " Organize expenses",
     subTitle:
-      " Split expenses with any group: trips, housemates, friends, and family.",
+      "Split expenses with any group: trips, housemates, friends, and family.",
     type: "organizeExpenses",
   },
   {
@@ -374,7 +374,7 @@ const Landing = () => {
         </div>
         <hr className="my-6 border-gray-200 sm:mx-auto  lg:my-8" />
         <span className="block text-sm text-white sm:text-center ">
-          © 2023{" "}
+          © 2024{" "}
           <a
              href="https://my-equalizer.vercel.app/"
             className="hover:underline"
@@ -387,7 +387,7 @@ const Landing = () => {
           Developed with ❤ by{" "}
           <a
              href="https://my-equalizer.vercel.app/"
-            className="hover:underline text-yellow-300 font-bold text-lg"
+            className="hover:underline text-yellow-200 font-bold text-lg"
           >
             TheDev
           </a>
